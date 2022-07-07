@@ -52,6 +52,10 @@ accurately replicate a provided design (as opposed to designing from scratch)
 and was a very interesting learning experience. I think I'll be doing more of
 these! :)
 
+*I also learned to be careful where you click on elements in Figma, you may
+activate a drop shadow by accident, then implement it not realising its not
+actually in the design!*
+
 I belive the CSS and HTML could be tightened up, I'll come back later and look
 at it with more experienced eyes. I'm open to suggestions!
 
