@@ -35,19 +35,25 @@ Users should be able to:
 
 ## My process
 
-Developed in VSCode using the [Live
-Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) addon
+Developed in on Linux with VSCode, using the [Live
+Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+addon for instant feedback.
 
 ### Built with
 
-- Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I tend to focus on Backend development, so this is my first attempt at trying to
+accurately replicate a provided design (as opposed to designing from scratch)
+and was a very interesting learning experience. I think I'll be doing more of
+these! :)
+
+I belive the CSS and HTML could be tightened up, I'll come back later and look
+at it with more experienced eyes. I'm open to suggestions!
 
 ## Author
 
