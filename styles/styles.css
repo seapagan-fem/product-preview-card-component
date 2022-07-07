@@ -19,6 +19,7 @@ p {
 body {
   background-color: var(--primary-cream);
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -56,8 +57,7 @@ body {
 }
 
 .title {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: normal;
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 5px;
@@ -68,9 +68,9 @@ body {
 
 .heading {
   font-family: "Fraunces 72pt", serif;
-  text-align: left;
-  font-style: normal;
   font-weight: 700;
+  text-align: left;
+  /* font-style: normal; */
   font-size: 32px;
   line-height: 32px;
   margin: 20px 0 24px 0;
@@ -78,9 +78,6 @@ body {
 
 .info {
   text-align: left;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
   font-size: 14px;
   line-height: 23px;
   color: var(--neutral-dark-grayish-blue);
@@ -102,9 +99,6 @@ body {
 }
 
 .price-previous {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
   font-size: 13px;
   text-decoration-line: line-through;
   color: var(--neutral-dark-grayish-blue);
