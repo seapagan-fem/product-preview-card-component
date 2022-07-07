@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+div,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-cream: hsl(30, 38%, 92%);
+  --primary-dark-cyan: hsl(158, 36%, 37%);
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-dark-grayish-blue: hsl(228, 12%, 48%);
+  --hover-button: hsl(158, 42%, 18%);
+}
+
+body {
+  background-color: var(--primary-cream);
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+  /* Just to contain the submission and align the attribution below it. */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.card {
+  width: 600px;
+  height: 450px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: var(--neutral-white);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.hero-image {
+  height: 450px;
+  background-image: url("./images/image-product-desktop.jpg");
+  background-size: cover;
+}
+
+.details {
+  padding: 0 32px;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 5px;
+  text-align: left;
+  color: var(--neutral-dark-grayish-blue);
+  margin-top: 32px;
+}
+
+.heading {
+  font-family: "Fraunces 72pt", serif;
+  text-align: left;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  margin: 20px 0 24px 0;
+}
+
+.info {
+  text-align: left;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: var(--neutral-dark-grayish-blue);
+  margin: 24px 0 30px 0;
+}
+
+.prices {
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.price-current {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 2em;
+  color: var(--primary-dark-cyan);
+  padding-right: 24px;
+}
+
+.price-previous {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  text-decoration-line: line-through;
+  color: var(--neutral-dark-grayish-blue);
+}
+
+.add-button {
+  width: 100%;
+  color: var(--neutral-white);
+  background-color: var(--primary-dark-cyan);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 30px 0 32px 0;
+}
+
+.add-button:hover,
+.add-button:active {
+  background-color: var(--hover-button);
+  cursor: pointer;
+}
+
+.add-button img {
+  padding-right: 8px;
+  vertical-align: middle;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                media queries                               */
+/* -------------------------------------------------------------------------- */
+@media screen and (max-width: 576px) {
+  .container {
+    min-height: unset;
+    padding: 28px 16px;
+  }
+  .card {
+    width: 100%;
+    height: unset;
+    display: block;
+  }
+
+  .hero-image {
+    height: 240px;
+    background-image: url("./images/image-product-mobile.jpg");
+    background-size: cover;
+  }
+
+  .details {
+    padding: 0 24px;
+  }
+
+  .title {
+    margin-top: 24px;
+  }
+
+  .heading {
+    margin: 12px 0 16px 0;
+  }
+
+  .info {
+    margin: 16px 0 24px 0;
+  }
+
+  .add-button {
+    margin: 20px 0 24px 0;
+  }
+}
