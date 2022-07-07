@@ -47,7 +47,7 @@ body {
 
 .hero-image {
   height: 450px;
-  background-image: url("./images/image-product-desktop.jpg");
+  background-image: url("../images/image-product-desktop.jpg");
   background-size: cover;
 }
 
@@ -88,8 +88,8 @@ body {
 }
 
 .prices {
-  text-align: left;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -156,7 +156,7 @@ body {
 
   .hero-image {
     height: 240px;
-    background-image: url("./images/image-product-mobile.jpg");
+    background-image: url("../images/image-product-mobile.jpg");
     background-size: cover;
   }
 
